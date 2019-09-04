@@ -1,6 +1,5 @@
 import React from 'react';
 import './collection-items.scss';
-import { deflate } from 'zlib';
 const CollectionItems = ({id, name , price, imageUrl}) => (
     <div className = 'collection-item'>
         <div className = 'image'
